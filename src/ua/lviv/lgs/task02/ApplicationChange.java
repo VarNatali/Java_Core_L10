@@ -16,7 +16,7 @@ public class ApplicationChange {
         str2 = str.replaceAll("[AaEeIioOuUУуЕеІіАаОоИи]", "-");
         System.out.println(str2);
 
-        System.out.println("Введіть речення:");
+        System.out.println("2. Введіть речення:");
 
         if (sc.hasNextLine()) {
             str2 = sc.nextLine();
